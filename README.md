@@ -16,5 +16,4 @@ Introducing DSC_LABS. This is a demo based run-through on deploying and managing
 Requires Microsoft ISE and VScode.
 
 ## Credits
-DSC_LABS uses some helper functions and techniques from:
-https://github.com/Duffney/IAC-DSC
+DSC_LABS uses some helper functions and techniques from https://github.com/Duffney/IAC-DSC
