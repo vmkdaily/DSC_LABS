@@ -71,3 +71,6 @@ Get-DscLocalConfigurationManager -CimSession $cim | select LCMStateDetail, LCMSt
 
 ## Start DSC Configuration
 Start-DscConfiguration -CimSession $cim -wait -force -Verbose -Path c:\dsc\SetNodeIPAddress\
+
+## Session cleanup
+$ConfigData = $null

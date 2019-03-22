@@ -67,3 +67,6 @@ $cim = New-CimSession -ComputerName $ComputerName -Credential (Get-Credential $C
 
 ## Show session
 $cim
+
+## Session cleanup
+$ConfigData = $null
