@@ -67,7 +67,7 @@ Once we have dsc up and running, we can deploy and re-deploy these nodes for tes
 ## Templates
 No templates are needed for Linux; However, we require at least one Windows template.
 
-## Linx and omi
+## Linux and omi
 For Linux, you can deploy from ISO or your own template as desired (`New-LabVM` is only Windows). Once you have a Linux guest online and reachable, you can manage it with `omi` and `dsc`.
 
 -end-
